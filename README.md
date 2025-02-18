@@ -32,3 +32,25 @@ graph TD
     style F fill:#f0f4c3,stroke:#dce775
     style G fill:#c8e6c9,stroke:#81c784
     style H fill:#b2dfdb,stroke:#4db6ac
+
+## Dataset 📚
+
+**MedQuad Dataset** (`train.csv`)  
+A comprehensive collection of medical question-answer pairs for healthcare AI applications.
+
+- **Size**: 4,652 validated medical QA pairs
+- **Availability**: Publicly accessible dataset
+- **Format**: CSV with structured medical knowledge
+
+### Column Description
+
+| Column Name | Description | Example Values |
+|-------------|-------------|----------------|
+| `qtype`     | Question classification category | Diagnosis, Treatment, Medication, Symptoms |
+| `Question`  | Natural language medical query | "What are the warning signs of diabetes?" |
+| `Answer`    | Verified medical response | "Common symptoms include increased thirst, frequent urination..." |
+
+**Sample Entry**:  
+```csv
+qtype,Question,Answer
+Diagnosis,"What tests confirm lupus?","Antinuclear antibody (ANA) test is primary diagnostic tool..."
