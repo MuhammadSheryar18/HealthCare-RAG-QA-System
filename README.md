@@ -11,7 +11,12 @@ A Retrieval Augmented Generation (RAG) system for medical question answering, po
 - FAISS vector search with MMR diversification
 - Streamlit web interface with medical UI
 - Context-aware answer generation
-- Error-resilient API handling
+
+## Installation 💻
+```bash
+git clone https://github.com/yourusername/healthcare-qa-rag.git
+cd healthcare-qa-rag
+pip install -r requirements.txt
 
 ## How It Works 🧪
 ```mermaid
