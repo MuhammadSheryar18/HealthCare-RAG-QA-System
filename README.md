@@ -2,7 +2,7 @@
 
 ## Preview
 <div align="center">
-  <img width="90%" height="auto" alt="" src="https://github.com/user-attachments/assets/qa-system-screenshot.PNG" />
+  <img width="90%" height="auto" alt="" src="https://github.com/user-attachments/assets/qa-system-screenshot" />
 </div>
 
 ## Overview
