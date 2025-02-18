@@ -1,6 +1,6 @@
 # Healthcare AI Assistant 🤖💊
 
-![App Screenshot](https://huggingface.co/spaces/Sheryar1998/HealthCare_QA_System/resolve/main/app-screenshot.png)  
+![App Screenshot](https://huggingface.co/spaces/Sheryar1998/HealthCare_QA_System/assets/QA SYSTEM SCREENSHOT.PNG)  
 *Replace with your actual screenshot URL*
 
 ## Overview
@@ -23,17 +23,17 @@ graph TD
     B -->|Files Missing| D[Download from Hugging Face]
     D --> C
     C --> E[Initialize HuggingFace Embeddings]
-    E --> F[Configure Retriever<br>[search_type='similarity', k=5, fetch_k=20]]
-    F --> G[Initialize DeepSeek LLM<br>[temperature=0.01, max_length=512]]
+    E --> F["Configure Retriever<br/>(search_type: similarity, k:5)"]
+    F --> G["Initialize DeepSeek LLM<br/>(temp:0.01, max_len:512)"]
     G --> H[Create QA Prompt Template]
-    H --> I[Build RetrievalQA Chain<br>[chain_type='stuff']]
+    H --> I["Build RetrievalQA Chain<br/>(chain_type: stuff)"]
     I --> J[Submit Query]
     J --> K{Valid Question?}
-    K -->|Yes| L[Retrieve Context<br>Generate Answer]
+    K -->|Yes| L[Retrieve Context+Generate Answer]
     K -->|No| M[Show Warning]
     L --> N{Found in Context?}
-    N -->|Yes| O[Format Answer<br>with 'ANSWER:' prefix]
-    N -->|No| P["Return 'Not found in medical records'"]
+    N -->|Yes| O[Format Answer with Prefix]
+    N -->|No| P["Return 'Not found'"]
     O --> Q[Display Styled Response]
     P --> Q
     M --> R[End Session]
