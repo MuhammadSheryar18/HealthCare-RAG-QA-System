@@ -2,7 +2,7 @@
 
 ## Preview
 <div align="center">
-  <img width="90%" height="auto" alt="" src="https://github.com/user-attachments/assets/qa-system-screenshot" />
+  <img width="90%" src="https://github.com/MuhammadSheryar18/HealthCare-RAG-QA-System/raw/main/assets/qa-system-screenshot.png" alt="Healthcare QA System Screenshot">
 </div>
 
 ## Overview
