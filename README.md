@@ -7,11 +7,11 @@ A Retrieval Augmented Generation (RAG) system for medical question answering, po
 **Live Demo**: [Hugging Face Space](https://sheryar1998-healthcare-qa-system.hf.space)
 
 ## Features ✨
-- Natural language processing for medical queries
+- Medical QA with evidence-based responses
+- FAISS vector search with MMR diversification
+- Streamlit web interface with medical UI
 - Context-aware answer generation
-- Hybrid search (MMR) with FAISS vector store
-- Streamlit web interface with medical UI theme
-- Hugging Face model integration
+- Error-resilient API handling
 
 ## How It Works 🧪
 ```mermaid
