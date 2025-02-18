@@ -12,12 +12,6 @@ A Retrieval Augmented Generation (RAG) system for medical question answering, po
 - Streamlit web interface with medical UI
 - Context-aware answer generation
 
-## Installation 💻
-```bash
-git clone https://github.com/yourusername/healthcare-qa-rag.git
-cd healthcare-qa-rag
-pip install -r requirements.txt
-
 ## How It Works 🧪
 ```mermaid
 graph TD
@@ -38,3 +32,9 @@ graph TD
     style G fill:#c8e6c9,stroke:#81c784
     style H fill:#b2dfdb,stroke:#4db6ac
 
+
+## Installation 💻
+```bash
+git clone https://github.com/yourusername/healthcare-qa-rag.git
+cd healthcare-qa-rag
+pip install -r requirements.txt
