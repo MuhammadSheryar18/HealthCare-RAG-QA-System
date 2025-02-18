@@ -1,6 +1,6 @@
 # Healthcare AI Assistant 🤖💊
 
-![App Screenshot](https://huggingface.co/spaces/Sheryar1998/HealthCare_QA_System/assets/qa-system-screenshot.PNG)  
+![Screenshot](./assets/qa-screenshot.png)
 
 
 ## Overview
