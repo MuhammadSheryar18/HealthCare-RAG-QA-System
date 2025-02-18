@@ -1,7 +1,5 @@
 # Healthcare AI Assistant 🤖💊
 
-![Screenshot](./assets/qa-screenshot.png)
-
 
 ## Overview
 A Retrieval Augmented Generation (RAG) system for medical question answering, powered by DeepSeek LLM and FAISS vector search. This system provides evidence-based answers to healthcare questions using the MedQuad dataset and is deployed as an interactive web app via Streamlit.
