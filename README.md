@@ -18,3 +18,14 @@ A Retrieval Augmented Generation (RAG) system for medical question answering, po
 git clone https://github.com/yourusername/healthcare-qa-rag.git
 cd healthcare-qa-rag
 pip install -r requirements.txt
+
+## Usage 🏥
+
+### Set Hugging Face Token
+```bash
+export HUGGINGFACEHUB_API_TOKEN="your_api_token"
+
+## Launch Application 🚀
+
+```bash
+streamlit run src/app/app.py
