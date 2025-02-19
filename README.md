@@ -1,16 +1,11 @@
-# Healthcare AI Assistant 🤖💊
-
-## Preview
+# Healthcare QA System 
 
 ## Overview
-A Retrieval Augmented Generation (RAG) system for medical question answering, powered by DeepSeek LLM and FAISS vector search. This system provides evidence-based answers to healthcare questions using the MedQuad dataset and is deployed as an interactive web app via Streamlit.
+
+This project provides an AI-powered healthcare question and answer system built using the **Retrieval-Augmented Generation (RAG)** technique. It leverages the **MedQuAD dataset**, **LangChain**, **HuggingFace embeddings**, **FAISS**, and **DeepSeek R1** to deliver accurate, context-aware medical answers. The system is deployed on **Hugging Face Spaces** using **Streamlit** for a seamless user interface.
+
 
 **Live Demo**: [Hugging Face Space](https://sheryar1998-healthcare-qa-system.hf.space)
 
-## Features ✨
-- Medical QA with evidence-based responses
-- FAISS vector search with MMR diversification
-- Streamlit web interface with medical UI
-- Context-aware answer generation
 
 
