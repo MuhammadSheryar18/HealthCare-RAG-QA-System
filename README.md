@@ -35,9 +35,29 @@ This project provides an AI-powered healthcare question and answer system built 
 
 ## APP Screenshot
 
-![RAG System](https://huggingface.co/spaces/Sheryar1998/HealthCare_QA_System/resolve/main/330175374-3543b5ea-3ef5-4fcf-a225-69c.png)
+![RAG System](https://huggingface.co/spaces/Sheryar1998/HealthCare_QA_System/resolve/main/qa-system-screenshot.PNG)
 
 **Live Demo**: [Hugging Face Space](https://sheryar1998-healthcare-qa-system.hf.space)
 
 
+## How to Use
+
+1. Visit the **Hugging Face Space** link provided above.
+2. Enter a healthcare-related question in the input box.
+3. Press the "Get Answer" button to receive the most relevant answer based on the dataset.
+
+## Future Improvements
+
+- **Expand the dataset**: Integrating additional healthcare-related data for more diverse answers.
+- **Better fine-tuning**: Further fine-tuning the **DeepSeek R1** model on domain-specific queries.
+- **Multi-language support**: Adding multi-language capabilities to broaden accessibility.
+- **Advanced User Interaction**: Implementing features such as voice input for a more interactive experience.
+
+## License
+
+This project is licensed under the **MIT License**.
+
+## Contact
+
+For further inquiries or contact, please reach out to: [sheryarloadhi789@gmail.com](mailto:sheryarloadhi789@gmail.com)
 
